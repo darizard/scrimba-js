@@ -1,5 +1,6 @@
 let chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890~`!@#$%^&*()_-+={[}]:;<,>.?";
 let iters = 15;
+renderPasswords();
 
 function clampLen() {
     let lenEl = document.querySelector("#pw-length");
