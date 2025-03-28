@@ -1,0 +1,38 @@
+<!doctype HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="main-content">
+            <div id="top">
+                <p id="title">Generate a<br><span class="green-text">random password</span></p>
+                <p id="tagline">Never use an insecure password again.</p>
+                <div id="actions">
+                    <button onclick="renderPasswords()">Generate passwords</button>
+                    <label id="pw-length-label" for="pw-length">Length: </label>
+                    <input id="pw-length" name="pw-length" type="text" placeholder="15" onchange="clampLen()">
+                </div>
+            </div>
+
+            <div id="bottom">
+                <div class="pw-output-area">
+                    <div id="pw1-el" class="pw-output green-text">a</div>
+                    <img id="copy-pw1" class="img-copy" src="images/copy-icon-50px.png" onclick="copyPassword(this,'pw1-el')">
+                </div>
+                <div class="pw-output-area">
+                    <div id="pw2-el" class="pw-output green-text">a</div>
+                    <img id="copy-pw2" class="img-copy" src="images/copy-icon-50px.png" onclick="copyPassword(this,'pw2-el')">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <hr style="margin:0">
+            <p class="credits">Project skeleton provided by by Scrimba.com's <a class="link" href="https://scrimba.com/learn-javascript-c0v" target="_blank">Learn Javascript course</a>!</p>
+        </div>
+
+        <div id="copied-notif">Copied!</div>
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>

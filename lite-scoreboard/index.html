@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="main-content">
+            <div class="board">
+                <div class="section">
+                    <div class="item">
+                        <div class="label">HOME</div>
+                    </div>
+                    <div class="item">
+                        <div id="homescore" class="score">0</div>
+                    </div>
+                    <div>
+                        <div class="controls">
+                            <button id="homeone" class="btn" onclick="addhome(1)">+1</button>
+                            <button id="hometwo" class="btn" onclick="addhome(2)">+2</button>
+                            <button id="homethree" class="btn" onclick="addhome(3)">+3</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="item">
+                        <div class="label">GUEST</div>
+                    </div>
+                    <div class="item">
+                        <div id="guestscore" class="score">0</div>
+                    </div>
+                    <div class="item">
+                        <div class="controls">
+                            <button id="guestone" class="btn" onclick="addguest(1)">+1</button>
+                            <button id="guesttwo" class="btn" onclick="addguest(2)">+2</button>
+                            <button id="guestthree" class="btn" onclick="addguest(3)">+3</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <hr style="margin:0">
+            <p class="credits">Project skeleton provided by by Scrimba.com's <a class="link" href="https://scrimba.com/learn-javascript-c0v" target="_blank">Learn Javascript course</a>!</p>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
