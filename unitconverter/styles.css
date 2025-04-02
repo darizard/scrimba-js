@@ -1,0 +1,125 @@
+:root {
+    --delBtnWidth: 40px;
+}
+
+body {
+    background-color: #1F2937;
+    color: whitesmoke;
+    width: 600px;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#add-converter-area {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #6943FF;
+    padding: 20px 4px;
+}
+
+#unit-type-select {
+    padding: 5px 10px;
+    width: 62.5%;
+    border: none;
+    border-right: 10px solid #ffffff00;
+}
+
+#add-converter-btn {
+    background-color: whitesmoke;
+    padding: 8px 16px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+#converters-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.converter-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 20px 0 20px;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #273549;
+    width: calc(100% - var(--delBtnWidth) - 20px);
+    margin-right: 20px;
+    /* padding: 40px 0; */
+}
+
+.unit-type {
+    /* default h3 margin: 12px */
+}
+
+.swap-btn {
+    background-image: url('images/delete-btn-75px.png');
+    background-size: cover;
+    margin: auto 0;
+    width: 40px;
+    height: 16px;
+    margin: auto auto 12px auto;
+    background-image: url("images/swap-arrow-icon-120px.png");
+    background-size: cover;
+}
+
+h3 {
+    color: #CCC1FF;
+    margin: 12px 0;
+}
+
+.converter-inputs-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.converter-inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.unit-left {
+    border-right: 1px solid #3b506f;
+}
+
+h4 {
+    margin: 10px 0;
+}
+
+.unit-widgets {
+    display: flex;
+    justify-content: center;
+}
+
+.measure-val-input {
+    width: 50%;
+    padding: 6px 0;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.measure-unit-select {
+    width: 30%;
+}
+
+.del-converter-btn {
+    width: var(--delBtnWidth);
+    height: var(--delBtnWidth);
+    background-image: url('images/delete-btn-75px.png');
+    background-size: cover;
+    margin: auto 0;
+}
