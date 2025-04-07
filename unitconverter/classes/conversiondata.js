@@ -74,6 +74,7 @@ export default class ConversionData {
                 "tsp": 1, // base
                 "tbsp": 3,
                 "fl oz": 6,
+                "cup": 48,
                 "pt": 96,
                 "qt": 192,
                 "gal": 768
