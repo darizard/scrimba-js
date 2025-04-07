@@ -4,6 +4,6 @@
     "name": "Unit converter",
     "action": {
         "default_popup": "index.html",
-        "default_icon": "images/dariIP-100px.png"
+        "default_icon": "images/dariIQ-100px.png"
     }
 }

@@ -19,16 +19,28 @@ body {
 
 #unit-type-select {
     padding: 5px 10px;
-    width: 62.5%;
+    width: 50%;
     border: none;
     border-right: 10px solid #ffffff00;
 }
 
-#add-converter-btn {
-    background-color: whitesmoke;
+button {
     padding: 8px 16px;
     border-style: none;
     border-radius: 10px;
+}
+
+#add-converter-btn {
+    background-color: whitesmoke;
+}
+
+#clear-converters-btn {
+    background-color: darkred;
+    color: whitesmoke;
+}
+
+.smol {
+    font-size: 0.8em;
 }
 
 #converters-area {
@@ -54,19 +66,13 @@ body {
     /* padding: 40px 0; */
 }
 
-.unit-type {
-    /* default h3 margin: 12px */
-}
-
 .swap-btn {
-    background-image: url('images/delete-btn-75px.png');
+    background-image: url("images/swap-arrow-icon-120px.png");
     background-size: cover;
     margin: auto 0;
     width: 40px;
     height: 16px;
     margin: auto auto 12px auto;
-    background-image: url("images/swap-arrow-icon-120px.png");
-    background-size: cover;
 }
 
 h3 {
@@ -89,11 +95,19 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .unit-left {
     border-right: 1px solid #3b506f;
+}
+
+.right-arrow {
+    background-image: url('images/right-arrow-120.png');
+    background-size: cover;
+    width: 40px;
+    height: 30px;
+    margin: auto auto 0 auto;
 }
 
 h4 {
@@ -110,6 +124,10 @@ h4 {
     padding: 6px 0;
     text-align: center;
     margin-right: 10px;
+}
+
+.val-right {
+    
 }
 
 .measure-unit-select {
