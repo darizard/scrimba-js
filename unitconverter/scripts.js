@@ -144,12 +144,3 @@ function curry_systemChanged(container, isLeft) {
         else container.measure2InputEl.value = result.toFixed(3);
     }
 }
-
-// Destination unit system toggled (imp/met)
-function curry_systemChangedRight() {
-    return function systemChangedRight(evt) {
-        // Update system and units of right side
-
-    }
-}
-
