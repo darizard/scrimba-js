@@ -95,6 +95,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 0 10px;
 }
 
@@ -110,8 +111,11 @@ h3 {
     margin: auto auto 0 auto;
 }
 
-h4 {
+.unit-system-btn {
+    width: 50%;
     margin: 10px 0;
+    background-color: #CCC1FF;
+    border: 2px solid #212121;
 }
 
 .unit-widgets {
@@ -124,10 +128,6 @@ h4 {
     padding: 6px 0;
     text-align: center;
     margin-right: 10px;
-}
-
-.val-right {
-    
 }
 
 .measure-unit-select {
